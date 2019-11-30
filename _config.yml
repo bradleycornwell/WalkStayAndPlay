@@ -1,2 +1,4 @@
 title: Walk Stay & Play
 description: A complete dog service
+sass:
+  style: compact
