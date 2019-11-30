@@ -20,10 +20,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <header class="page-header" role="banner">
-      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
-    </header>
     <nav>
         <div class="topnav" id="myTopnav">
           <a href="#testimonies">Testimonies</a>
@@ -35,9 +31,18 @@
           </a>
         </div>
     </nav>
+    <header class="page-header" role="banner">
+      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
+    </header>
     <main id="content" class="main-content" role="main">
       {{ content }}
       <footer class="site-footer">
+        <div>
+          <p>Animal Activity Licence AWL0019</p>
+          <p>Animal Boarding Establishments Act 1963</p>
+          <pIssued by Ipswich Borough Council</p>
+        </div>
         <span class="site-footer-credits"><a href="#">T&Cs</a></span>
         <span class="site-footer-credits">E: anne@walkstayandplay.co.uk</span>
         <span class="site-footer-credits">T: 01473 843729</span>
