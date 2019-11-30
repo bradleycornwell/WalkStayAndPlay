@@ -8,7 +8,4 @@
 	margin: 0 auto;
 }
 
-.img {
-	width: 45rem;
-	margin: 0 auto;
-}
+img[src$='#img-banner'] { width: 90%; margin: 0 auto;}
