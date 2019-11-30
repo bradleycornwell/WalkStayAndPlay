@@ -1,5 +1,5 @@
-layout: page
-title: "About
-permaln: /about/
+---
+layout: defaut
+---
 
-About
+# About
