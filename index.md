@@ -57,7 +57,7 @@ Alfie my Cocker has three homes. He loves mine, my mums and Walk Stay and Play. 
 
 Bailey is a happy dog when he is with Anne. It is his second home, which is the biggest compliment l can pay. You could not have anyone better to look after your Pooch.
 
-**Sue & Bailey
+**Sue & Bailey**
  
 We found Anne in the early days of Walk Stay and Play and having had problems with a previous dog sitter due to Jack's lively character, we were nervous about how he would get on with Anne.
 Our worries were completely unfounded as Anne is brilliant with him.
@@ -65,7 +65,7 @@ Anne is efficient, reliable, trustworthy and has a great understanding of dogs. 
 He obviously enjoys himself and we come home he is always happy and healthy, so we know he has been well looked after.
 We would thoroughly recommend Anne
 
-**Ian Johnson
+**Ian Johnson**
 
 ### Services Provided
 
