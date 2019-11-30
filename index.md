@@ -71,7 +71,7 @@ Overnight boarding
 ### Drop Off & Collection
 Your dog can be dropped off between 8am and 9am with collection by 6pm. An earlier drop off or a later collection can be accommodated but must be discussed prior to the day to ensure it is possible.
 
-#[Contact](#contact)
+# [Contact](#contact)
 
 We would love to hear from you.
 
