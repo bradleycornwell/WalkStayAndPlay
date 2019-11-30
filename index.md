@@ -52,23 +52,23 @@ They will have access to a secure garden, treats as agreed and lots of fun! If y
 
 # [Price List](#prices)
 
-## Walking
+### Walking
 1 hour walk
 £12 for one dog
 £20 for two dogs.
 
-## Day Care
+### Day Care
 Up to 8 hours
 £20 for one dog
 £35 for two dogs
 Part day rates available on request.
 
-## Home Boarding
+### Home Boarding
 Overnight boarding
 £25 for one dog
 £45 for two dogs.
 
-## Drop Off & Collection
+### Drop Off & Collection
 Your dog can be dropped off between 8am and 9am with collection by 6pm. An earlier drop off or a later collection can be accommodated but must be discussed prior to the day to ensure it is possible.
 
 #[Contact](#contact)
