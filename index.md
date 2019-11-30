@@ -4,7 +4,7 @@
 
 layout: default
 ---
-![Dogs](anoir-chafik-2_3c4dIFYFU-unsplash.jpg =300px)
+![Dogs](anoir-chafik-2_3c4dIFYFU-unsplash.jpg)
 
 ## Walk stay and play
 
