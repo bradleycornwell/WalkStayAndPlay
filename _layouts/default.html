@@ -10,6 +10,16 @@
         gtag('config', '{{ site.google_analytics }}');
       </script>
     {% endif %}
+    <script>
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
     <meta charset="UTF-8">
 
 {% seo %}
