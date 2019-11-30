@@ -4,10 +4,6 @@
 
 layout: default
 ---
-![Dogs](anoir-chafik-2_3c4dIFYFU-unsplash.jpg#img-banner)
-
-## Walk stay and play
-
 Welcome to Walk, Stay and Play. My name is Anne and  I offer a personal and friendly dog walking and sitting service within the Ipswich area.
 
 I am extremely reliable and trustworthy, fully insured and licensed by Ipswich Borough Council.
