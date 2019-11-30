@@ -31,7 +31,7 @@ Bailey is a happy dog when he is with Anne. It is his second home, which is the 
 
 [See more on Facebook](https://facebook.com/dogwalkstayplay)
 
-# [Services Provided](#services)
+# [Services](#services)
 
 ## Walking
 Due to work or other commitments you may sometimes have to leave your dog longer than you might care to, well, relax knowing that l can take care of that for you.
@@ -50,7 +50,7 @@ Two good walks a day are the minimum and who knows a third maybe on the agenda w
 
 They will have access to a secure garden, treats as agreed and lots of fun! If you require comfort in the knowledge they are having a ball a text service for updates is available free of charge. Day care is also a good way to socialise your dog and get them used to spending time with other 4 pawed friends. It really is a doggie hotel as close to home as you can get.
 
-# [Price List](#prices)
+# [Pricess](#prices)
 
 ### Walking
 1 hour walk
