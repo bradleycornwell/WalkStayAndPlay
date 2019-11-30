@@ -27,3 +27,5 @@ github_username: bradleycornwell
 # Build settings
 sass:
   style: compact
+
+theme: jekyll-theme-cayman
