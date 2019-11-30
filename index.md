@@ -29,7 +29,7 @@ Bailey is a happy dog when he is with Anne. It is his second home, which is the 
 
 **Sue & Bailey**
 
-[See more on Facebook] (https://facebook.com/dogwalkstayplay)
+[See more on Facebook](https://facebook.com/dogwalkstayplay)
 
 # [Services Provided](#services)
 
