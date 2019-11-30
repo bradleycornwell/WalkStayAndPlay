@@ -2,3 +2,12 @@
 ---
 
 @import "{{ site.theme }}";
+
+.page-header {
+  color: #fff;
+    text-align: center;
+    background: url(/anoir-chafik-2_3c4dIFYFU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+    
