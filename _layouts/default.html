@@ -11,42 +11,127 @@
       </script>
     {% endif %}
     <script>
-function myFunction() {
-  var x = document.getElementById("myTopnav");
-  if (x.className === "topnav") {
-    x.className += " responsive";
-  } else {
-    x.className = "topnav";
-  }
-}
 </script>
     <meta charset="UTF-8">
-
 {% seo %}
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="theme-color" content="#157878">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
-    <nav>
-        <div class="topnav" id="myTopnav">
-          <a href="#testimonials">Testimonials</a>
-          <a href="#services">Services</a>
-          <a href="#prices">Prices</a>
-          <a href="#contact">Contact</a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-            <i class="fa fa-bars"></i>
-          </a>
-        </div>
-    </nav>
     <header class="page-header" role="banner">
+        <nav>
+            <ul class="links">
+              <li><a href="#testimonials">Testimonials</a>
+              <li><a href="#services">Services</a></li>
+              <li><a href="#prices">Prices</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+       </nav>
       <h1 class="project-name">{{ page.title | default: site.title }}</h1>
-      <h2 class="project-tagline">{{ page.description | default: site.description }}</h2>
-    </header>
+      </header>
     <main id="content" class="main-content" role="main">
-      {{ content }}
+      <div class="card">
+        <div class="card-header">
+          <h2>Welcome to Walk, Stay and Play!</h2>
+        </div>
+        <div class="card-content">
+          <div class="card-text">
+            <p>My name is Anne and I offer a personal and friendly dog walking and sitting service within the Ipswich area, I am fully insured and licensed by Ipswich Borough Council.</p>
+            <p>I would be love to be able to take care of your dog treating them as I would my own lots of fun, walks and play!</p>
+            <p>As an experienced dog owner I appreciate that knowing who to trust with your pet is an important decision. I can promise that your dog will be treated as if it were one of my own and that I take the responsibility of minding your dog most seriously.</p>
+            <p>Before walking your dog I will meet you to get to know your dog and discuss your requirements to give you confidence that your dog is in the best possible hands.</p>
+          </div>
+          <img class="card-image" src="/home.jpg">
+        </div>
+      </div>
+      <div class="card">
+          <div class="card-header">
+            <h2>Testimonials</h2>
+          </div>
+          <div class="card-content">
+            <img class="card-image" src="/many dogs.jpg">
+            <div class="card-text">
+              <h4>Bekki Fileccia</h4>
+              <p>My two Cavaliers are always very happy staying at Anne's.They get the best attention and walks and love snuggling down on the sofa with Anne and her husband in the evenings!
+                  Bekki Fileccia
+                </p>
+                <h4>Sue & Bailey</h4>
+                <p>Bailey is a happy dog when he is with Anne. It is his second home, which is the biggest compliment l can pay. You could not have anyone better to look after your Pooch.</p>
+            </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-header">
+            <h2>Services</h2>
+          </div>
+          <div class="card-content">
+            <div class="card-text">
+              <h4>Walking</h4>
+              <p>Due to work or other commitments you may sometimes have to leave your dog longer than you might care to, well, relax knowing that l can take care of that for you.</p>
+              <p>Your dog will be walked for a full hour, unless otherwise requested. You can choose whether you would prefer walking on their own, on lead, off lead where they can run free and play with other dogs.</p>
+              <p>I will ensure whatever mud etc they might choose to roll in you will get them back with clean paws, been watered and ready for a sleep.</p>
+              <p>Your preferences and concerns can all be worked out when we have our initial consultation.</p>
+              <h4>Day care & Home boarding</h4>
+              <p>This service is ideal for days, nights weekends or weeks away as a great alternative to boarding kennels.</p>
+              <p>Your dog will stay in my home and be treated as my own with lots of love and attention.</p>
+              <p>Two good walks a day are the minimum and who knows a third maybe on the agenda when my husband gets in from work.</p>
+              <p>They will have access to a secure garden, treats as agreed and lots of fun! If you require comfort in the knowledge they are having a ball a text service for updates is available free of charge. Day care is also a good way to socialise your dog and get them used to spending time with other 4 pawed friends.</p>
+              <p>It really is a doggie hotel as close to home as you can get.</p>
+            </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-header">
+            <h2>Prices</h2>
+          </div>
+          <div class="card-content">
+            <div class="card-text">
+              <div class="row">
+                <div class="col">
+                    <h4>Walking</h4>
+                    <p>1 hour walk</p>
+                    <p>£12 for one dog</p>
+                    <p>£20 for two dogs</p>
+                </div>
+                <div class="col">
+                    <h4>Day care</h4>
+                    <p>Up to 8 hours</p>
+                    <p>£20 for one dog</p>
+                    <p>£35 for two dogs</p>
+                    <p>Part day rates available on request.</p>
+                  </div>
+              </div>
+              <div class="row" style="display: flex;">
+                <div class="col">
+                  <h4>Home boarding</h4>
+                  <p>Overnight boarding</p>
+                  <p>£25 for one dog</p>
+                  <p>£45 for two dogs</p>
+                </div>
+              </div>
+              <div class="row">
+                  <h4>Drop off & collection</h4>
+                  <p>Your dog can be dropped off between 8am and 9am with collection by 6pm.</p>
+                  <p>An earlier drop off or a later collection can be accommodated but must be discussed prior to the day to ensure it is possible.</p>
+              </div>
+            </div>
+          </div>
+      </div>
+      <div class="card">
+          <div class="card-header">
+            <h2>Contact</h2>
+          </div>
+          <div class="card-content">
+            <div class="card-text">
+              <p>I would love to hear from you to discuss your needs, our number one priority to provide the best possible service for you and your dog, so me know how we can help.</p>
+              <p>T: 01473 843729 - M: 07702 499455</p>
+              <p>E: anne@walkstayandplay.co.uk.</p>
+            </div>
+            <img class="card-image" src="/walk.jpg">
+          </div>
+      </div>
       <footer class="site-footer">
         <div>
           <p>Animal Activity Licence AWL0019</p>
