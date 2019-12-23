@@ -2,9 +2,14 @@
 ---
 
 @import '{{ site.theme }}';
+$base-color: rgb(252, 247, 247);
+$header-color: rgb(78, 78, 78);
 
 body {
-	background: linear-gradient(rgba(67, 77, 62, 0.3), rgba(67, 77, 62, 0.5)),
+	background: linear-gradient(
+			rgba(244, 247, 246, 0.3),
+			rgba(244, 245, 243, 0.5)
+		),
 		url('/assets/redox-01.png') center center;
 	color: black;
 }
@@ -17,10 +22,16 @@ h1 {
 	font-size: xx-large;
 }
 
+h2,
+h3,
+h4 {
+	color: $header-color !important;
+}
+
 .page-header {
 	/* Here's the trick */
 	background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.5)),
-		url(/banner.jpg) center center;
+		url(/banner_sm.jpg) center center;
 	background-size: cover;
 	display: flex;
 	flex-direction: column;
@@ -29,14 +40,14 @@ h1 {
 	padding-right: 4em;
 	padding-bottom: 4em;
 	padding-top: 0.5em;
-	color: white;
+	color: $base-color;
 	min-height: 35vh;
 	max-height: 50vh;
 	margin-bottom: 2em;
 
-	-webkit-box-shadow: 0 -8px 5px -8px white inset;
-	-moz-box-shadow: 0 -8px 5px -8px white inset;
-	box-shadow: 0 -8px 5px -8px white inset;
+	-webkit-box-shadow: 0 -8px 5px -8px $base-color inset;
+	-moz-box-shadow: 0 -8px 5px -8px $base-color inset;
+	box-shadow: 0 -8px 5px -8px $base-color inset;
 }
 
 .project-name {
@@ -50,7 +61,7 @@ h1 {
 	display: flex;
 
 	& a {
-		color: white;
+		color: $base-color;
 		padding: 0.5em;
 		text-decoration: none;
 		cursor: pointer;
@@ -63,8 +74,8 @@ h1 {
 
 .card {
 	padding: 1em;
-	background: white;
-	border-radius: 1em;
+	background: $base-color;
+	border-radius: 0.5em;
 	margin-bottom: 1.5em;
 }
 .card-content {
@@ -76,8 +87,33 @@ h1 {
 	padding: 0.2em;
 	object-fit: cover;
 	width: 35%;
-	border-radius: 1em;
+	border-radius: 0.5em;
 	height: 60%;
+}
+.card-text {
+	& a {
+		color: black;
+	}
+}
+
+.contact_links {
+	display: flex;
+	justify-content: center;
+	width: 100%;
+
+	.contact {
+		margin-left: 2.5em;
+	}
+}
+
+.footer {
+	background-color: grey;
+	color: white;
+	text-align: center;
+
+	& a {
+		color: white;
+	}
 }
 
 @media screen and (max-width: 520px) {
@@ -90,5 +126,9 @@ h1 {
 	}
 	.project-tagline {
 		font-size: large;
+	}
+
+	.card-image {
+		display: none;
 	}
 }
