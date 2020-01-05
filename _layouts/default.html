@@ -29,7 +29,7 @@
               <li><a href="#contact">Contact</a></li>
             </ul>
        </nav>
-      <h1 class="project-name">{{ page.title | default: site.title }}</h1>
+      <!-- <h1 class="project-name">{{ page.title | default: site.title }}</h1> -->
       </header>
     <main id="content" class="main-content" role="main">
       <div class="card">
@@ -38,8 +38,8 @@
         </div>
         <div class="card-content">
           <div class="card-text">
-            <p>My name is Anne and I offer a personal and friendly dog walking and sitting service within the Ipswich area, I am fully insured and licensed by Ipswich Borough Council.</p>
-            <p>I would be love to be able to take care of your dog treating them as I would my own lots of fun, walks and play!</p>
+            <p>Hi my name is Anne, I offer a personal and friendly dog boarding and sitting service in Ipswich.</p>
+            <p>Established in 2014 fully insured and Licensed with Ipswich Borough Council.</p>
             <p>As an experienced dog owner I appreciate that knowing who to trust with your pet is an important decision. I can promise that your dog will be treated as if it were one of my own and that I take the responsibility of minding your dog most seriously.</p>
             <p>Before walking your dog I will meet you to get to know your dog and discuss your requirements to give you confidence that your dog is in the best possible hands.</p>
           </div>
@@ -53,10 +53,20 @@
           <div class="card-content">
             <img class="card-image" src="/many dogs.jpg">
             <div class="card-text">
+              <p>
+                Here are just a couple of testimonials from some of happy customers, for more check out our <a href="https://www.facebook.com/DogWalkStayPlay">Facebook</a> page.
+              </p>
+              <div class="fb_logo">
+                <a href="https://www.facebook.com/DogWalkStayPlay">
+                  <img src="/FindUsOn_EN_2019/online_EN/Color/FindUs-FB-RGB-BRC-Site-500.svg">
+                </a>
+              </div>
+              <hr>
               <h4>Bekki Fileccia</h4>
-              <p>My two Cavaliers are always very happy staying at Anne's.They get the best attention and walks and love snuggling down on the sofa with Anne and her husband in the evenings!
+                <p>My two Cavaliers are always very happy staying at Anne's.They get the best attention and walks and love snuggling down on the sofa with Anne and her husband in the evenings!
                   Bekki Fileccia
                 </p>
+                <hr>
                 <h4>Sue & Bailey</h4>
                 <p>Bailey is a happy dog when he is with Anne. It is his second home, which is the biggest compliment l can pay. You could not have anyone better to look after your Pooch.</p>
             </div>
@@ -87,30 +97,29 @@
             <a name="prices"><h2>Prices</h2></a>
           </div>
           <div class="card-content">
-            <div class="card-text" style="display: flex; width: 100%; flex-wrap: wrap;">
-              <div style="display: flex; width: 100%; flex-wrap: wrap;">
-                <div>
-                  <h4>Walking</h4>
-                  <p>1 hour walk</p>
-                  <p>£12 for one dog</p>
-                  <p>£20 for two dogs</p>
-                </div>
-                <div style="padding-left: 2em;">
-                    <h4>Day care</h4>
-                    <p>Up to 8 hours</p>
-                    <p>£20 for one dog</p>
-                    <p>£35 for two dogs</p>
-                </div>
-                <div style="padding-left: 2em;">
-                  <h4>Home boarding</h4>
+            <div class="card-text">
+              <div class="card-grid">
+                <div class="col">
+                  <h3>Home boarding</h3>
                   <p>Overnight boarding</p>
                   <p>£25 for one dog</p>
                   <p>£45 for two dogs</p>
                 </div>
+                <div class="col col-pad">
+                  <h3>Walking</h3>
+                  <p>1 hour walk</p>
+                  <p>£12 for one dog</p>
+                  <p>£20 for two dogs</p>
+                </div>
+                <div class="col col-pad">
+                    <h3>Day care</h3>
+                    <p>Up to 8 hours</p>
+                    <p>£20 for one dog</p>
+                    <p>£35 for two dogs</p>
+                </div>
               </div>
-              
               <div>
-                  <h4>Drop off & collection</h4>
+                  <h3>Drop off & collection</h3>
                   <p>Your dog can be dropped off between 8am and 9am with collection by 6pm.</p>
                   <p>An earlier drop off or a later collection can be accommodated but must be discussed prior to the day to ensure it is possible.</p>
               </div>
@@ -124,10 +133,9 @@
           <div class="card-content">
             <div class="card-text">
               <p>I would love to hear from you to discuss your needs, our number one priority to provide the best possible service for you and your dog, so me know how we can help.</p>
-              
               <p><a href="mailto:anne@walkstayandplay.co.uk">E: anne@walkstayandplay.co.uk</a></p>
               <p><a href="tel:01473843729">T: 01473 843729</a></p>
-              <p><a href="tel:07702499455">M: 07702 499455</a></p>
+              <p><a href="tel:07702499455">M: 07702 499455</a></p> 
             </div>
             <img class="card-image" src="/walk.jpg">
           </div>
@@ -137,10 +145,15 @@
       <div>
         <p>Fully licenced by Ipswich Borough Council. Animal Activity Licence AWL0019. Animal Boarding Establishments Act 1963</p>
       </div>
-      <div class="contact_links">
+      <div class="" style="display: flex; flex-wrap: wrap; justify-content: center;">
         <a class="contact" href="mailto:anne@walkstayandplay.co.uk">E: anne@walkstayandplay.co.uk</a>
-        <a class="contact" href="tel:01473843729">T: 01473 843729</a>
-        <a class="contact" href="tel:07702499455">M: 07702 499455</span>
+        <a class="contact contact-pad-left" href="tel:01473843729">T: 01473 843729</a>
+        <a class="contact contact-pad-left" href="tel:07702499455">M: 07702 499455</a>
+      </div>
+      <div class="fb_logo--sm">
+        <a href="https://www.facebook.com/DogWalkStayPlay">
+          <img src="/FindUsOn_EN_2019/online_EN/Black/FindUs-FB-RGB-Blk.svg">
+        </a>
       </div>
     </footer>
   </body>
